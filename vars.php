@@ -18,7 +18,8 @@
         'Cherry',
         'myItems' => [9,5,7]
     ];
-    var_dump($myArray);
+    echo 'myItems';
+    // var_dump($myArray);
 
     //camelCase
     $camelCase = 0;
