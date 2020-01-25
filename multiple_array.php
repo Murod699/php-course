@@ -11,7 +11,7 @@
     //Dumping
     // var_dump($students);
 
-    // foreach ($students as $student) {
-    //     echo $student['fio'] ." - ". $student['group'];
-    //     echo '<br>';
-    // }
+    foreach ($students as $student) {
+        echo $student['fio'] ." - ". $student['group'];
+        echo '<br>';
+    }

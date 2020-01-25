@@ -1,4 +1,4 @@
-<?php
+    <?php
     include('multiple_array.php');
 ?>
 <html>
@@ -6,7 +6,7 @@
     <title>Guruh royxati</title>
 </head>
 <body>
-    <table width="100%">
+    <table width="100%" border =1>
         <thead>
             <th>№</th>
             <th>FIO</th>
@@ -23,7 +23,7 @@
                 <td><?php echo $student['group']; ?></td>
                 <td><?php echo $student['age']; ?></td>
             </tr>
-        <?php } ?>
+     } ?>
         -->
         <!-- PHP Alternative -->
         <?php foreach ($students as $key => $student): ?>
